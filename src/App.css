@@ -263,3 +263,16 @@ body {
   transform: translate(3px, 3px);
   transition-duration: 0.3s;
 }
+
+.gradient{
+  /* background: linear-gradient(0deg, #283f4400, #06853b2f); */
+  background-color: #2d4d2d2c;
+}
+.vertical-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: linear-gradient(0deg, transparent,white,transparent );
+}
