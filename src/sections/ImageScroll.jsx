@@ -51,7 +51,7 @@ const cards = [
 
 const ImageScroll = () => {
   return (
-    <div className="mt-[5rem]">
+    <div className="">
       <HorizontalScrollCarousel />
     </div>
   );
@@ -63,11 +63,11 @@ const HorizontalScrollCarousel = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 7], ["-50%", "500%"]);
+  const x = useTransform(scrollYProgress, [0, 9], ["-60%", "600%"]);
 
   return (
-    <section ref={targetRef} className="relative h-[30vh]">
-      <div className="sticky flex h-screen overflow-hidden">
+    <section ref={targetRef} className=" relative h-[10vh]">
+      <div className="sticky -top-0 flex h-screen items-center overflow-hidden -mt-[15rem]">
         <motion.div style={{ x }} className="flex gap-4">
           {cards.map((card) => {
             return <Card card={card} key={card.id} />;
@@ -80,9 +80,27 @@ const HorizontalScrollCarousel = () => {
 
 const Card = ({ card }) => {
   return (
+    // <div
+    //   key={card.id}
+    //   className="group relative h-[200px] w-[400px] overflow-hidden"
+    // >
+    //   <div
+    //     style={{
+    //       backgroundImage: `url(${card.url})`,
+    //       backgroundSize: "cover",
+    //       backgroundPosition: "center",
+    //     }}
+    //     className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
+    //   ></div>
+    //   <div className="absolute inset-0 z-10 grid place-content-center">
+    //     <p className="bg-gradient-to-br p-8 text-md font-black uppercase text-white backdrop-blur-lg">
+    //       {card.title}
+    //     </p>
+    //   </div>
+    // </div>
     <div
       key={card.id}
-      className="group relative h-[200px] w-[400px] overflow-hidden"
+      className="group relative h-[250px] w-[500px] overflow-hidden bg-neutral-200"
     >
       <div
         style={{
@@ -93,7 +111,7 @@ const Card = ({ card }) => {
         className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
       ></div>
       <div className="absolute inset-0 z-10 grid place-content-center">
-        <p className="bg-gradient-to-br p-8 text-md font-black uppercase text-white backdrop-blur-lg">
+        <p className="bg-gradient-to-br from-white/20 to-white/0 p-8 text-6xl font-black uppercase text-white backdrop-blur-lg">
           {card.title}
         </p>
       </div>

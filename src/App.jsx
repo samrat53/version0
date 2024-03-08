@@ -13,7 +13,7 @@ function App() {
     <Hero/>
     <About/>
     <Projects/>
-    <ImageScroll/>
+    {/* <ImageScroll/> */}
     <SkillsTools/>
     <Contacts/>
     </>
