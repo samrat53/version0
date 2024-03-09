@@ -48,7 +48,7 @@ const Navigations = () => {
             width="40"
             height="40"
             fill="orange"
-            class="bi bi-envelope-at-fill"
+            className="bi bi-envelope-at-fill"
             viewBox="0 0 16 16"
           >
             <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
@@ -62,7 +62,7 @@ const Navigations = () => {
               width="40"
               height="40"
               fill="#0D9276"
-              class="bi bi-mortarboard-fill"
+              className="bi bi-mortarboard-fill"
               viewBox="0 0 16 16"
             >
               <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z" />
