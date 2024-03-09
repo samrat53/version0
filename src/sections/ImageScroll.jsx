@@ -52,6 +52,11 @@ const cards = [
 const ImageScroll = () => {
   return (
     <div className="">
+      <div className="flex mt-48 items-center justify-center">
+        <span className="font-semibold uppercase text-neutral-500">
+          Journey Timeline
+        </span>
+      </div>
       <HorizontalScrollCarousel />
     </div>
   );
@@ -63,11 +68,11 @@ const HorizontalScrollCarousel = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 9], ["-60%", "600%"]);
+  const x = useTransform(scrollYProgress, [0, 9], ["10%", "-600%"]);
 
   return (
-    <section ref={targetRef} className=" relative h-[10vh]">
-      <div className="sticky -top-0 flex h-screen items-center overflow-hidden -mt-[15rem]">
+    <section ref={targetRef} className=" relative h-[300vh]">
+      <div className="sticky -top-0 flex h-screen items-center overflow-hidden ">
         <motion.div style={{ x }} className="flex gap-4">
           {cards.map((card) => {
             return <Card card={card} key={card.id} />;
@@ -100,7 +105,7 @@ const Card = ({ card }) => {
     // </div>
     <div
       key={card.id}
-      className="group relative h-[250px] w-[500px] overflow-hidden bg-neutral-200"
+      className="group relative h-[20rem] w-[30rem] overflow-hidden bg-neutral-200"
     >
       <div
         style={{

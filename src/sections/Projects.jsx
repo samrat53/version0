@@ -31,7 +31,7 @@ const Projects = () => {
       <div className="text-center underline font-bold text-2xl my-9">
         Projects & Skills
       </div>
-      <div className="project-container lg:flex md:flex sm:flex md:justify-between lg:justify-between space-x-5 lg:px-[11rem] my-4">
+      <div className="project-container flex flex-col items-center lg:flex lg:flex-row xl:flex xl:flex-row 2xl:flex 2xl:flex-row md:flex md:flex-row justify-around  lg:justify-between space-x-5 lg:px-[11rem] my-4">
         {data.map((project, index) => {
           return (
             <div className="card1" key={index}>
