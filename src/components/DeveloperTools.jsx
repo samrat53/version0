@@ -13,8 +13,8 @@ const DeveloperTools = () => {
   ];
   return (
     <div className="">
-      <h2 className="text-2xl font-bold mb-4">Developer Tools Proficiency</h2>
-      <ul className="list-disc ml-6">
+      <h2 className="text-2xl font-bold mb-4 skills-heading text-center">Developer Tools Proficiency</h2>
+      <ul className="list-disc ml-6 description">
         {data.map((item, index) => {
           return <li key={index}>{item}</li>;
         })}

@@ -4,7 +4,7 @@ import Navigations from "../components/Navigations";
 const Contacts = () => {
   return (
     <div>
-      <h2 className="text-2xl font-bold my-4 text-center">Contacts</h2>
+      <h2 className="text-2xl font-bold text-center name mt-[10rem]">Contacts</h2>
       <Navigations />
     </div>
   );

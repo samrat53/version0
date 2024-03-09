@@ -64,11 +64,11 @@ const TiltCard = () => {
         }}
         className="absolute inset-4 grid place-content-center rounded-xl tilt-bg"
       >
-        <img
-          src="./samrat-coat.png"
-          alt="Samrat's Image"
-          className="object-cover lg:h-[22rem] md:h-[22rem] sm:h-[22rem] lg:w-auto md:w-full sm:w-full place-content-center"
-        />
+            <img
+            src="./samrat-coat.png"
+            alt="Samrat's Image"
+            className="object-cover lg:h-[22rem] md:h-[22rem] sm:h-[22rem] lg:w-auto md:w-full sm:w-full place-content-center"
+            />
       </div>
     </motion.div>
   );

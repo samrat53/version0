@@ -52,6 +52,7 @@ body {
   font-size: 15px;
   line-height: 135%;
   color: rgb(255, 255, 255);
+  font-family: sans-serif;
 }
 
 .card-header span:last-child {
@@ -59,6 +60,7 @@ body {
   font-size: 15px;
   line-height: 135%;
   color: rgb(251, 255, 0);
+  font-family: sans-serif;
 }
 @keyframes moveLight {
   0% {
@@ -117,10 +119,14 @@ body {
   font-weight: 700;
   font-size: 28px;
   color: rgb(231, 231, 28);
+  font-family: "Montserrat", sans-serif;
 }
 
 .content1 .para1 {
   line-height: 1.5;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight:400; 
 }
 
 /* .content1 .btn1 {
@@ -158,6 +164,7 @@ body {
 .card1:hover .btn1 {
   color: #212121;
   background: #e8e8e8;
+  font-family: "Montserrat", sans-serif;
 }
 
 .content1 .btn1:hover {
@@ -236,6 +243,9 @@ body {
   border-radius: 0px;
   /* box-shadow: 0 20px 30px -7px rgba(97, 118, 238, 0.5); */
   transition-duration: 0.3s;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .svg {

@@ -2,9 +2,8 @@ import React from "react";
 
 const DsaInfo = () => {
   const data = [
-    "Programming language C++",
+    "C++ and Standard Template Library",
     "Arrays",
-    "Standard Template Library",
     "Binary Search",
     "Sorting and Searching Techniques",
     "Single and Doubly Linked list",
@@ -14,8 +13,8 @@ const DsaInfo = () => {
   ];
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-4">Data Structures & Algorithms Proficiency</h2>
-      <ul className="list-disc ml-6">
+      <h2 className="text-2xl font-bold mb-4 skills-heading text-center">Data Structures & Algorithms  Proficiency</h2>
+      <ul className="list-disc ml-6 description pl-16">
         {data.map((item, index) => {
           return (
             <li key={index}>{item}</li>

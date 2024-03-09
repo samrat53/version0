@@ -27,7 +27,7 @@ const Titles = () => {
             <img src={card.src} alt="" className="w-[6.5rem] h-[]rounded-[50%]" />
           </div>
           <div className="card-header">
-            <span>{card.title}</span>
+            <span className="">{card.title}</span>
             <span>{card.subtitle}</span>
           </div>
         </div>

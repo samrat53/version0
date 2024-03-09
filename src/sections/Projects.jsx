@@ -27,7 +27,7 @@ const Projects = () => {
 
   return (
     <div>
-      <div className="text-center underline font-bold text-2xl my-9">
+      <div className="text-center name font-bold text-2xl my-9">
         Projects & Skills
       </div>
       <div className="project-container flex flex-col items-center lg:flex lg:flex-row xl:flex xl:flex-row 2xl:flex 2xl:flex-row md:flex md:flex-row justify-around  lg:justify-between space-x-5 lg:px-[11rem] my-4">
@@ -36,7 +36,7 @@ const Projects = () => {
             <div className="card1" key={index}>
               <div className="content1">
                 <p className="heading1 w-full">{project.name}</p>
-                <p className="para1">{project.description}</p>
+                <p className="para1 ">{project.description}</p>
                 <div className="flex space-x-1 my-8">
                   {project.techstacks.map((item, index) => {
                     return (

@@ -39,12 +39,12 @@ const cards = [
   },
   {
     url: "./scroll/bird.JPG",
-    title: "My click: a sparrow",
+    title: "my random wildlife capture",
     id: 6,
   },
   {
     url: "./scroll/concert.JPG",
-    title: "My click: college fest",
+    title: "capture at my college fest",
     id: 7,
   },
   {
@@ -58,8 +58,8 @@ const ImageScroll = () => {
   return (
     <div className="">
       <div className="flex mt-48 items-center justify-center">
-        <span className="font-semibold uppercase text-neutral-500">
-          Journey Timeline
+        <span className="font-semibold uppercase text-neutral-500 name">
+          A glimpse into my life
         </span>
       </div>
       <HorizontalScrollCarousel />
@@ -73,7 +73,7 @@ const HorizontalScrollCarousel = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 9], ["10%", "-600%"]);
+  const x = useTransform(scrollYProgress, [0, 9], ["15%", "-800%"]);
 
   return (
     <section ref={targetRef} className=" relative h-[300vh]">
