@@ -13,39 +13,44 @@ import { useRef } from "react";
 
 const cards = [
   {
-    url: "./bird.avif",
-    title: "Title 1",
+    url: "./scroll/video.png",
+    title: "Recording Video for Lead",
     id: 1,
   },
   {
-    url: "./bird.avif",
-    title: "Title 2",
+    url: "./scroll/host.jpg",
+    title: "Hosting at orientation",
     id: 2,
   },
   {
-    url: "./bird.avif",
-    title: "Title 3",
+    url: "./scroll/session.png",
+    title: "Praparing for session",
     id: 3,
   },
   {
-    url: "./bird.avif",
-    title: "Title 4",
+    url: "./scroll/students.jpg",
+    title: "Students at a introduction session",
     id: 4,
   },
   {
-    url: "./bird.avif",
-    title: "Title 5",
+    url: "./scroll/club.jpg",
+    title: "With Club member",
     id: 5,
   },
   {
-    url: "./bird.avif",
-    title: "Title 6",
+    url: "./scroll/bird.JPG",
+    title: "My click: a sparrow",
     id: 6,
   },
   {
-    url: "./bird.avif",
-    title: "Title 7",
+    url: "./scroll/concert.JPG",
+    title: "My click: college fest",
     id: 7,
+  },
+  {
+    url: "./scroll/marchpast.JPG",
+    title: "Marchpast runner's up",
+    id: 8,
   },
 ];
 
@@ -116,7 +121,7 @@ const Card = ({ card }) => {
         className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
       ></div>
       <div className="absolute inset-0 z-10 grid place-content-center">
-        <p className="bg-gradient-to-br from-white/20 to-white/0 p-8 text-6xl font-black uppercase text-white backdrop-blur-lg">
+        <p className="bg-gradient-to-br from-white/20 to-white/0 p-8  font-black uppercase text-white backdrop-blur-sm text-xl">
           {card.title}
         </p>
       </div>

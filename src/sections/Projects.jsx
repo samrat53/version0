@@ -6,23 +6,22 @@ const Projects = () => {
     {
       name: "Personalised Chatbot",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus odio sed similique fugiat harum nostrum tenetur, illo doloribus ad maiores consequatur adipisci placeat perspiciatis expedita atque architecto praesentium! Praesentium, omnis?",
+        "Trained on my own data, the chatbot responds to questions specifically related to me. It showcases my interest in exploring emerging technologies and leveraging them to create practical solutions.",
       techstacks: ["Google gemini", "Express.js", "React.js"],
-      link: "https://github.com",
+      link: "https://github.com/samrat53/genAI-bot.git",
     },
     {
-      name: "Personalised Chatbot",
+      name: "Full Stack Todo",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus odio sed similique fugiat harum nostrum tenetur, illo doloribus ad maiores consequatur adipisci placeat perspiciatis expedita atque architecto praesentium! Praesentium, omnis?",
-      techstacks: ["Google gemini", "Express.js", "React.js"],
-      link: "https://github.com",
+        "App seamlessly integrates Express for backend routing, React for dynamic front-end interactions, and MongoDB with Mongoose for efficient data storage and management. Users can effortlessly add, update, and remove tasks, experiencing a smooth and responsive interface that enhances productivity.",
+      techstacks: ["MongoDB", "Express.js", "React.js"],
+      link: "https://github.com/samrat53/deep-dive-web/tree/main/5week",
     },
     {
-      name: "Personalised Chatbot",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus odio sed similique fugiat harum nostrum tenetur, illo doloribus ad maiores consequatur adipisci placeat perspiciatis expedita atque architecto praesentium! Praesentium, omnis?",
-      techstacks: ["Google gemini", "Express.js", "React.js"],
-      link: "https://github.com",
+      name: "Decembothon UI",
+      description: "A user-friendly and intuitive interface designed for facilitating the 21 days development challenge. As a part of the GDSC NITA web development team, I contributed to crafting this interface, which served as the platform for students to submit their tasks and track their progress throughout the competition.",
+      techstacks: ["React.js", "TailwindCSS", "DaisyUI"],
+      link: "https://github.com/samrat53/dcc-gdsc-21days-december",
     },
   ];
 

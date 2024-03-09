@@ -5,17 +5,17 @@ const Titles = () => {
     {
       title: "Data Structures And Algorithms",
       subtitle: "100+ Questions",
-      src: "./bird.avif",
+      src: "./leetcode.svg",
     },
     {
       title: "Web Development",
       subtitle: "MERN Developer",
-      src: "./bird.avif",
+      src: "./tiles/mern-stack.png",
     },
     {
       title: "Building Community @GDSC-NITA",
       subtitle: "Study Jams & workshops",
-      src: "./bird.avif",
+      src: "./tiles/gdsc.png",
     },
   ];
 
@@ -24,7 +24,7 @@ const Titles = () => {
       {cardsData.map((card, index) => (
         <div className="card" key={index}>
           <div className="container">
-            <img src={card.src} alt="" className="w-[6.5rem] rounded-[50%]" />
+            <img src={card.src} alt="" className="w-[6.5rem] h-[]rounded-[50%]" />
           </div>
           <div className="card-header">
             <span>{card.title}</span>
