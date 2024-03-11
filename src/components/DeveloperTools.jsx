@@ -8,7 +8,7 @@ const DeveloperTools = () => {
     "Version Control: Git and GitHub",
     "Bash and terminal",
     "UI libraries: Tailwind, MUI, DaisyUI, Framer Motion ",
-    "Development libraries: Zod, JWT",
+    "Development libraries: Zod, JWT, SEO: React Helmet",
     "IDE: Visual Studio Code",
   ];
   return (
