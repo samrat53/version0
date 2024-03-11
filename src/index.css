@@ -51,3 +51,56 @@
   line-height: 1.7;
   color: yellow;
 }
+
+@media screen and (max-width: 455px) {
+  .name-top {
+    font-size: 2.7rem;
+    /* padding-left: 3px; */
+  }
+  .description {
+    font-size: 15px;
+  }
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+  .name{
+    font-size: 2.7rem;
+  }
+  .vertical-line{
+    /* display:none; */
+    background: linear-gradient(90deg, transparent, white, transparent);
+    width: 100%; /* Ensure the line spans the full width */
+    height: 2px; /* Set height to make it horizontal */
+    top: 50%; /* Adjust position for horizontal line */
+    left: 0; /* Adjust position for horizontal line */
+  }
+  
+}
+
+@media (min-width:456px) and (max-width: 540px) {
+  .vertical-line{
+    /* display:none; */
+    margin-top: -20px;
+    background: linear-gradient(90deg, transparent, white, transparent);
+    width: 100%; /* Ensure the line spans the full width */
+    height: 2px; /* Set height to make it horizontal */
+    top: 50%; /* Adjust position for horizontal line */
+    left: 0; /* Adjust position for horizontal line */
+  }
+}
+@media screen and (max-width: 768px) {
+  .skills-dev{
+    padding-top: 5rem;
+  }
+  .vertical-line{
+    /* display:none; */
+    background: linear-gradient(90deg, transparent, white, transparent);
+    width: 100%; /* Ensure the line spans the full width */
+    height: 2px; /* Set height to make it horizontal */
+    top: 50%; /* Adjust position for horizontal line */
+    left: 0; /* Adjust position for horizontal line */
+  }
+}

@@ -1,13 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  
 
 body {
   width: 100%;
   height: 100%;
   background: #00130a;
-  color:white;
+  color: white;
 }
 
 .card {
@@ -15,7 +14,13 @@ body {
   height: 126px;
   position: relative;
   padding: 25px;
-  background: radial-gradient(178.94% 106.41% at 26.42% 106.41%, #717272 0%, rgba(73, 72, 72, 0) 71.88%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFFFF;
+  background: radial-gradient(
+        178.94% 106.41% at 26.42% 106.41%,
+        #717272 0%,
+        rgba(73, 72, 72, 0) 71.88%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #ffffff;
   /* box-shadow: 0px 155px 62px rgba(0, 0, 0, 0.01), 0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09), 0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1); */
   border-radius: 23px;
   transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
@@ -38,7 +43,6 @@ body {
   justify-content: center;
   transform: scale(0.7);
 }
-
 
 .card-header {
   display: flex;
@@ -72,7 +76,7 @@ body {
 }
 
 .card::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -81,7 +85,11 @@ body {
   border-radius: 23px;
   /* border: 0px solid transparent; */
   animation: moveLight 4s linear infinite;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0.233), rgba(0, 0, 0, 0));
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0.233),
+    rgba(0, 0, 0, 0)
+  );
 }
 
 .card {
@@ -89,7 +97,6 @@ body {
   position: relative;
   overflow: hidden; /* Ensure the border doesn't overflow */
 }
-
 
 /*  */
 .card1 {
@@ -103,7 +110,7 @@ body {
   padding: 32px;
   overflow: hidden;
   border-radius: 10px;
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .content1 {
@@ -112,7 +119,7 @@ body {
   align-items: flex-start;
   gap: 20px;
   color: #e8e8e8;
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .content1 .heading1 {
@@ -124,22 +131,10 @@ body {
 
 .content1 .para1 {
   line-height: 1.5;
-  font-size: 15px;
-  font-family: sans-serif;
-  font-weight:400; 
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
-
-/* .content1 .btn1 {
-  color: #e8e8e8;
-  text-decoration: none;
-  padding: 10px;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-  background: linear-gradient(-45deg, #000000 0%, #ff0f7b6b 100% );
-  border-radius: 5px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-} */
 
 .card1::before {
   content: "";
@@ -148,9 +143,9 @@ body {
   top: 0;
   width: 100%;
   height: 10px;
-  background: linear-gradient(-45deg, #00000070 0%, #004637 100% );
+  background: linear-gradient(-45deg, #00000070 0%, #004637 100%);
   z-index: -1;
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .card1:hover::before {
@@ -183,7 +178,7 @@ body {
   font-size: 18px;
   /* background: linear-gradient(to left, #00ddff00 0%,#66a6ff8f 100%); */
   /* background: linear-gradient(-45deg, #000000 0%, #ff0f7b6b 100% ); */
-  background: linear-gradient(-45deg, #0000009d 0%, #02502c 100% );
+  background: linear-gradient(-45deg, #0000009d 0%, #02502c 100%);
   color: white;
   padding: 0.8em 1.2em;
   display: flex;
@@ -205,7 +200,6 @@ body {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-
 .nextbutton svg {
   width: 20px;
   height: 20px;
@@ -214,7 +208,7 @@ body {
 .tech-stacks {
   /* background: linear-gradient(to left, #00ddff00 0%,#66a6ff8f 100%); */
   /* background: linear-gradient(-45deg, #000000 0%, #ff0f7b6b 100% ); */
-  background: linear-gradient(-45deg, #0000009d 0%, #7aa4ff5b 100% );
+  background: linear-gradient(-45deg, #0000009d 0%, #7aa4ff5b 100%);
   color: white;
   padding: 0.8em 1.2em;
   display: flex;
@@ -275,7 +269,7 @@ body {
   transition-duration: 0.3s;
 }
 
-.gradient{
+.gradient {
   /* background: linear-gradient(0deg, #283f4400, #06853b2f); */
   background-color: #2d4d2d2c;
 }
@@ -285,31 +279,30 @@ body {
   top: 0;
   height: 100%;
   width: 2px;
-  background: linear-gradient(0deg, transparent,white,transparent );
+  background: linear-gradient(0deg, transparent, white, transparent);
 }
 
 .contact-btn-git {
   display: grid;
   place-items: center;
-  background: #e3edf7;
-  padding: 1.4em;
+  background: #ffffff;
+  /* padding: 1.4em; */
   border-radius: 10px;
-  box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
-	      -6px -6px 10px -1px rgba(255,255,255,0.7);
-  border: 1px solid rgba(0,0,0,0);
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    0px 0px 10px 2px rgba(255, 255, 255, 0.699);
+  border: 1px solid rgba(0, 0, 0, 0);
   cursor: pointer;
   transition: transform 0.5s;
-  width: 75px;
-  height: 75px;
+  width: 60px;
+  height: 60px;
 }
 
 .contact-btn-git:hover {
-  box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
-	      inset -4px -4px 6px -1px rgba(255,255,255,0.7),
-	      -0.5px -0.5px 0px rgba(255,255,255,1),
-	      0.5px 0.5px 0px rgba(0,0,0,0.15),
-	      0px 12px 10px -10px rgba(0,0,0,0.05);
-  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.466),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 0.527),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   transform: translateY(0.5em);
 }
 
@@ -318,9 +311,10 @@ body {
   width: 30px;
   height: 30px;
 }
-.contact-btn-git img{
+.contact-btn-git img {
   width: 30px;
   height: 30px;
+  transition: transform 0.5s;
 }
 
 .contact-btn-git:hover svg {
@@ -328,10 +322,20 @@ body {
   fill: #333333;
 }
 
-
-.tilt-bg-border{
+.tilt-bg-border {
   background: linear-gradient(to left, #2b3f443f, #3baacc4d);
 }
-.tilt-bg{
-  background: linear-gradient(-45deg, #81ffff5d 0%, #000000bb 100% );
+.tilt-bg {
+  background: linear-gradient(-45deg, #81ffff5d 0%, #000000bb 100%);
+}
+.parent {
+  animation: bounce-top 1.5s ease;
+}
+@keyframes bounce-top {
+  0% {
+    transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+  }
+  100% {
+    transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+  }
 }

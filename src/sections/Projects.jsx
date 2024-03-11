@@ -30,7 +30,7 @@ const Projects = () => {
       <div className="text-center name font-bold text-2xl my-9">
         Projects & Skills
       </div>
-      <div className="project-container flex flex-col items-center lg:flex lg:flex-row xl:flex xl:flex-row 2xl:flex 2xl:flex-row md:flex md:flex-row justify-around  lg:justify-between space-x-5 lg:px-[11rem] my-4">
+      <div className="project-container flex flex-col items-center lg:flex lg:flex-row xl:flex xl:flex-row 2xl:flex 2xl:flex-row md:flex md:flex-row justify-between lg:px-[10rem] sm:gap-5 my-4">
         {data.map((project, index) => {
           return (
             <div className="card1" key={index}>

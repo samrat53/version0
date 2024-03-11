@@ -9,13 +9,13 @@ import SkillsTools from "./sections/SkillsTools";
 
 function App() {
   return (
-    <>
+    <div className="parent">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Samrat Bhattacharya Portfolio</title>
         <meta
           name="description"
-          content="Portfolio of Samrat Bhattacharya, CSE 2026 batch of NIT Agartala"
+          content="Portfolio of Samrat Bhattacharya, CSE 2026 batch of NIT Agartala, India"
         />
         <meta
           name="keywords"
@@ -32,7 +32,7 @@ function App() {
       <ImageScroll />
       <SkillsTools />
       <Contacts />
-    </>
+    </div>
   );
 }
 

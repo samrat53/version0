@@ -11,9 +11,9 @@ const Hero = () => {
         <div className="introduction-container flex flex-col justify-between lg:-ml-[12rem]">
           <div className="name-top uppercase">Samrat <br/>Bhattacharya</div>
           <div className="typewritter-words">
-            <Typewritter words={["Web Development", "DSA", "Photography", "Event Management"]}/>
+            <Typewritter words={["Web Development", "Data Structures & Algo.", "Photography", "Event Management"]}/>
           </div>
-          <div className="mt-9 description">
+          <div className="mt-9 description description-top">
             <div>Department of Computer Science & Engineering</div>
             <div>National Institute of Technology, Agartala</div>
             <div>GDSC: Web Development Team</div>
