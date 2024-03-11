@@ -19,7 +19,7 @@ function App() {
         />
         <meta
           name="keywords"
-          content="Samrat Bhattacharya, NIT Agartala, 2026, batch of 2026, 2026 batch, National Institute of Technology Agartala, Computer Science and Engineering, CSE, Google Developer Student Clubs, GDSC, Web Development, Decembothon, MERN Stack, Coding Clubs, Student Leadership, Developers and coders club, DCC, BTC, Board of Technical Council, Gymkhana, Gymkhana Technical"
+          content="Samrat Bhattacharya, portfolio site, Portfolio site, NIT Agartala, 2026, batch of 2026, 2026 batch, National Institute of Technology Agartala, Computer Science and Engineering, CSE, Google Developer Student Clubs, GDSC, Web Development, Decembothon, MERN Stack, Coding Clubs, Student Leadership, Developers and coders club, DCC, BTC, Board of Technical Council, Gymkhana, Gymkhana Technical"
         />
         <link
           rel="cannonical"
